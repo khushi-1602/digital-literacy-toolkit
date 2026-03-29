@@ -1,0 +1,111 @@
+* main.py
+ 
+* modules like phishing.py, passwords.py and privacy.py
+ 
+Now lets talk about phishing awareness.
+ 
+When you get an email that says "Your bank account is blocked. Click this link to verify immediately" what do you do?
+ 
+You need to be careful with these kinds of emails.
+ 
+So is this email safe? You can answer yes or no.
+ 
+If you say no that is correct. This is probably a phishing attempt.
+ 
+If you say yes you need to be careful. This could be a phishing scam.
+ 
+Here are some tips to stay safe from phishing:
+ 
+* Check the senders email address
+ 
+* Do not click on unknown links
+ 
+* Never share your one-time password or passwords with anyone
+ 
+Now lets check your password strength.
+ 
+You can enter your password. We will check how strong it is.
+ 
+We will give your password a score out of 4.
+ 
+If your password is enough that is a point.
+ 
+If it has numbers in it that is another point.
+ 
+If it has letters that is a point too.
+ 
+If it has special characters like !. @ That is another point.
+ 
+Then we will tell you how strong your password is.
+ 
+If you get a score of 4 that is a password.
+ 
+If you get a score of 2 or 3 that is a password.
+ 
+If you get a score of 0 or 1 that is a weak password.
+ 
+Finally lets talk about some privacy tips.
+ 
+* You should enable Two-Factor Authentication or 2FA, for short
+ 
+* You should not use Wi-Fi for banking
+ 
+* You should check what permissions your apps have regularly
+ 
+* You should keep your software updated
+ 
+* And you should not share your information online
+ 
+These are some simple tips to help you stay safe online.
+digital-literacy-toolkit/
+│── main.py
+│── modules/
+│   ├── phishing.py
+│   ├── passwords.py
+│   ├── privacy.py
+def phishing_awareness():
+   print("\n=== Phishing Awareness ===")
+   print("You receive an email saying:")
+   print("'Your bank account is blocked. Click this link to verify immediately.'")
+ 
+   answer = input("\nIs this safe? (yes/no): ").strip().lower()
+ 
+   if answer == "no":
+       print("✅ Correct! This is likely a phishing attempt.")
+   else:
+       print("⚠️ Warning! This could be a phishing scam.")
+ 
+   print("\nTips to stay safe:")
+   print("- Check sender email carefully")
+   print("- Avoid clicking unknown links")
+   print("- Never share OTP or passwords")
+def password_checker():
+   print("\n=== Password Strength Checker ===")
+   password = input("Enter your password: ")
+ 
+   score = 0
+ 
+   if len(password) >= 8:
+       score += 1
+   if any(char.isdigit() for char in password):
+       score += 1
+   if any(char.isupper() for char in password):
+       score += 1
+   if any(char in "!@#$%^&*" for char in password):
+       score += 1
+ 
+   print("\nPassword Score:", score, "/ 4")
+ 
+   if score == 4:
+       print("✅ Strong Password")
+   elif score >= 2:
+       print("⚠️ Moderate Password")
+   else:
+       print("❌ Weak Password")
+def privacy_tips():
+   print("\n=== Privacy Tips ===")
+   print("- Enable Two-Factor Authentication (2FA)")
+   print("- Avoid using public Wi-Fi for banking")
+   print("- Review app permissions regularly")
+   print("- Keep your software updated")
+   print("- Do not share personal information online")
