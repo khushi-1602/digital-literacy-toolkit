@@ -1,0 +1,150 @@
+Digital Literacy Toolkit Project Report
+ 
+1. Introduction  
+ 
+In today’s digital era, the internet is an essential part of daily life. However, as digital use grows, so do risks like cyber threats, phishing attacks, and data breaches. Many users do not know about these dangers, making them open to cybercrime.  
+ 
+The Digital Literacy Toolkit aims to tackle this issue by teaching users basic cybersecurity practices in a straightforward and interactive way through a command-line interface.  
+ 
+2. Objectives  
+ 
+The main goals of this project are:  
+​•​To educate users about phishing attacks and how to spot them  
+​•​To help users understand the importance of strong passwords  
+​•​To raise awareness of online privacy and safe browsing habits  
+​•​To create a lightweight, easy-to-use educational tool  
+ 
+3. Scope of the Digital Literacy Toolkit Project Report
+ 
+1. Introduction  
+ 
+In today’s digital era, the internet is an essential part of daily life. However, as digital use grows, so do risks like cyber threats, phishing attacks, and data breaches. Many users do not know about these dangers, making them open to cybercrime.  
+ 
+The Digital Literacy Toolkit aims to tackle this issue by teaching users basic cybersecurity practices in a straightforward and interactive way through a command-line interface.  
+ 
+2. Objectives  
+ 
+The main goals of this project are:  
+​•​To educate users about phishing attacks and how to spot them  
+​•​To help users understand the importance of strong passwords  
+​•​To raise awareness of online privacy and safe browsing habits  
+​•​To create a lightweight, easy-to-use educational tool  
+ 
+3. Scope of the Project  
+ 
+This project focuses on basic digital literacy and cybersecurity awareness. It is for beginners who want to learn safe internet practices. The application runs in a terminal environment and does not need advanced technical knowledge.  
+ 
+4. Methodology  
+ 
+The project uses a modular programming approach:  
+​•​The main program (main.py) serves as the entry point  
+​•​Separate modules manage different functionalities:  
+​​•​Phishing awareness  
+​​•​Password checking  
+​​•​Privacy tips  
+​•​User interaction occurs through a menu-driven CLI system  
+​•​Logical conditions evaluate user inputs  
+ 
+5. Tools and Technologies Used  
+​•​Programming Language: Python  
+​•​Platform: Command Line Interface (CLI)  
+​•​Editor: VS Code or any code editor  
+​•​Version Control: GitHub  
+ 
+6. Features of the Project  
+ 
+6.1 Phishing Awareness  
+​•​Simulates a phishing scenario  
+​•​Helps users identify suspicious messages  
+​•​Provides safety tips  
+ 
+6.2 Password Strength Checker  
+​•​Evaluates passwords based on:  
+​​•​Length  
+​​•​Uppercase letters  
+​​•​Numbers  
+​​•​Special characters  
+​•​Offers feedback (Weak/Moderate/Strong)  
+ 
+6.3 Privacy Tips  
+​•​Displays essential online safety practices  
+​•​Encourages responsible digital behavior  
+ 
+7. Advantages  
+​•​Simple and easy to use  
+​•​No external dependencies  
+​•​Runs on any system with Python  
+​•​Helps improve cybersecurity awareness  
+ 
+8. Limitations  
+​•​No graphical interface  
+​•​Limited real-world simulation  
+​•​No data storage or tracking  
+ 
+9. Future Enhancements  
+​•​Add a graphical user interface (GUI)  
+​•​Implement a quiz and scoring system  
+​•​Add user login and data tracking  
+​•​Include real-time phishing detection examples  
+ 
+10. Conclusion  
+ 
+The Digital Literacy Toolkit is a simple yet effective application that helps users grasp basic cybersecurity concepts. It promotes safe internet use and raises awareness about common digital threats. This project shows how technology can serve as an educational tool for improving digital literacy
+This project focuses on basic digital literacy and cybersecurity awareness. It is for beginners who want to learn safe internet practices. The application runs in a terminal environment and does not need advanced technical knowledge.  
+ 
+4. Methodology  
+ 
+The project uses a modular programming approach:  
+​•​The main program (main.py) serves as the entry point  
+​•​Separate modules manage different functionalities:  
+​​•​Phishing awareness  
+​​•​Password checking  
+​​•​Privacy tips  
+​•​User interaction occurs through a menu-driven CLI system  
+​•​Logical conditions evaluate user inputs  
+ 
+5. Tools and Technologies Used  
+​•​Programming Language: Python  
+​•​Platform: Command Line Interface (CLI)  
+​•​Editor: VS Code or any code editor  
+​•​Version Control: GitHub  
+ 
+6. Features of the Project  
+ 
+6.1 Phishing Awareness  
+​•​Simulates a phishing scenario  
+​•​Helps users identify suspicious messages  
+​•​Provides safety tips  
+ 
+6.2 Password Strength Checker  
+​•​Evaluates passwords based on:  
+​​•​Length  
+​​•​Uppercase letters  
+​​•​Numbers  
+​​•​Special characters  
+​•​Offers feedback (Weak/Moderate/Strong)  
+ 
+6.3 Privacy Tips  
+​•​Displays essential online safety practices  
+​•​Encourages responsible digital behavior  
+ 
+7. Advantages  
+​•​Simple and easy to use  
+​•​No external dependencies  
+​•​Runs on any system with Python  
+​•​Helps improve cybersecurity awareness  
+ 
+8. Limitations  
+​•​No graphical interface  
+​•​Limited real-world simulation  
+​•​No data storage or tracking  
+ 
+9. Future Enhancements  
+​•​Add a graphical user interface (GUI)  
+​•​Implement a quiz and scoring system  
+​•​Add user login and data tracking  
+​•​Include real-time phishing detection examples  
+ 
+10. Conclusion  
+ 
+The Digital Literacy Toolkit is a simple yet effective application that helps users grasp basic cybersecurity concepts. It promotes safe internet use and raises awareness about common digital threats. This project shows how technology can serve as an educational tool for improving digital literacy.
